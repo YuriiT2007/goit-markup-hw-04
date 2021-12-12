@@ -255,7 +255,16 @@ body {
 .groop-pec:first-child {
   margin-left: 0px;
 }
-
+.icomfive {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .groop-pec {
   width: calc(100% / 4);
   margin-left: 30px;
@@ -336,9 +345,9 @@ body {
   background-color: var(--text-bg-dop);
 }
 
-/* .foto-ouer-team{
-         -------other Див Фото-------*/
-
+/* .foto-ouer-team {
+ 
+} */
 .foto-ouer-team {
   display: flex;
 }
@@ -362,6 +371,96 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
+/*-------------jg------*/
+
+.icomcparens {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.icomclas {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  padding-top: 12px;
+  padding-right: 11.97px;
+  padding-bottom: 12px;
+  padding-left: 12.04px;
+}
+.icomclas:hover {
+  background-color: var(--hov-foc-color);
+}
+.icomhover {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+.icomhover:hover {
+  fill: var(--text-bg-dop);
+}
+.instag {
+}
+
+/*---------Постоянные клиенты----*/
+.section-klient {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.klienti {
+  font-family: Roboto;
+  display: block;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.incomklient-ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.inkomklien-li {
+  width: 170px;
+  height: 92px;
+  list-style: none;
+  border: 1px solid black;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-right: 20px;
+}
+.inkomklien-li :last-child {
+  margin-right: 0px;
+}
+
+.incom-svg {
+  border: 1px solid black;
+  width: 106px;
+  height: 60px;
+}
+.inconkl-use
+
+
+
+
+
+
+
+
 /*----------our-team and-----------*/
 /*----------footer-----------*/
 footer {
@@ -410,12 +509,12 @@ footer {
 .foot-mail-tel {
   list-style: none;
 }
-/* .foot-cont{
-        /*-------other-------*/
-
-/* .foot-mail{ */
-/*-------other-------
-    } */
+/* .foot-cont {
+ 
+} */
+/* .foot-mail {
+  
+} */
 .foot-mail-com {
   color: var(--text-rgb-a);
   font-size: 14px;
@@ -475,9 +574,9 @@ footer {
 .but.mar {
   margin-right: 0px;
 }
-/* button{
-        /*-------other-------*/
-
+/* button {
+  
+} */
 .but {
   color: var(--text-dec-black);
   font-family: inherit;
@@ -497,9 +596,8 @@ footer {
   background-color: var(--hov-foc-color);
 }
 /*----------after batton!!!!!!!!!-------*/
-/* .many-foto{
-        
-    } */
+/* .many-foto {
+} */
 .all-inf-teh {
   list-style: none;
   display: flex;
@@ -599,8 +697,3 @@ img {
             box-sizing: inherit;
             
         } */
-.tumb {
-  width: 350px;
-  height: 570px;
-  display: block;
-}
