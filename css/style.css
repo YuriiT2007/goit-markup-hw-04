@@ -426,40 +426,37 @@ body {
 
 .incomklient-ul {
   display: flex;
-  text-align: center;
-  justify-content: center;
-  padding-left: 215px;
-  padding-right: 215px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .inkomklien-li {
+  display: inline-flex;
   width: 170px;
   height: 92px;
   list-style: none;
-  border: 1px solid black;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-  margin-right: 20px;
 }
-.inkomklien-li :last-child {
-  margin-right: 0px;
+.inckli-a {
+  display: inline-flex;
+  width: inherit;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.inckli-a:hover,
+.inckli-a:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .incom-svg {
-  border: 1px solid black;
+  border: 1px solid transparent;
   width: 106px;
   height: 60px;
 }
-.inconkl-use
-
-
-
-
-
-
-
 
 /*----------our-team and-----------*/
 /*----------footer-----------*/
@@ -540,9 +537,55 @@ footer {
   color: var(--hov-foc-color);
 }
 
-/*----------footer and-----------*/
-/*-------portfolio work---------*/
+.blok-connect {
+  border: 1px solid red;
 
+  width: 206px;
+  height: 80px;
+  display: flex;
+}
+.connekt {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*----------Новый блок------------*/
+
+/*-------portfolio work---------*/
+.fut-container {
+  display: flex;
+}
+.icon-fut-ul {
+  display: flex;
+}
+.icon-fut-li {
+  width: 44px;
+  height: 44px;
+  list-style: none;
+}
+.icon-fut-a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid bisque;
+  border-radius: 50%;
+  fill: #ffffff;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-fut {
+  width: 20px;
+  height: 20px;
+}
+
+/*----------footer and-----------*/
 .ouer-work {
   padding-top: 100px;
   margin: 0px;
