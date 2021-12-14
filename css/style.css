@@ -342,7 +342,7 @@ body {
 .divtext {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: var(--text-bg-dop);
+  background-color: #ffffff;
 }
 
 /* .foto-ouer-team {
@@ -370,40 +370,45 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 /*-------------jg------*/
 
 .icomcparens {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+
   list-style: none;
+  width: 206px;
+  height: 44px;
+  margin-left: 32px;
 }
 .icomclas {
+  display: inline-flex;
   border: 1px solid transparent;
-  border-radius: 50%;
   width: 44px;
   height: 44px;
-  margin-right: 10px;
-  padding-top: 12px;
-  padding-right: 11.97px;
-  padding-bottom: 12px;
-  padding-left: 12.04px;
 }
-.icomclas:hover {
+
+.icoma {
+  display: inline-flex;
+  fill: #afb1b8;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.icoma:hover,
+.icoma:focus {
   background-color: var(--hov-foc-color);
+  fill: #ffffff;
 }
 .icomhover {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
-  border: 1px solid transparent;
-  margin-right: 10px;
-}
-.icomhover:hover {
-  fill: var(--text-bg-dop);
-}
-.instag {
 }
 
 /*---------Постоянные клиенты----*/
@@ -538,11 +543,11 @@ footer {
 }
 
 .blok-connect {
-  border: 1px solid red;
+  border: 1px solid transparent;
 
   width: 206px;
   height: 80px;
-  display: flex;
+  margin-left: 70px;
 }
 .connekt {
   display: inline-block;
@@ -553,6 +558,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 15px;
 }
 
 /*----------Новый блок------------*/
@@ -560,9 +566,11 @@ footer {
 /*-------portfolio work---------*/
 .fut-container {
   display: flex;
+  align-items: baseline;
 }
 .icon-fut-ul {
   display: flex;
+  justify-content: space-between;
 }
 .icon-fut-li {
   width: 44px;
@@ -573,12 +581,17 @@ footer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid bisque;
+  border: 1px solid transparent;
   border-radius: 50%;
   fill: #ffffff;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-fut-a:hover,
+.icon-fut-a:focus {
+  fill: #ffffff;
+  background-color: var(--hov-foc-color);
 }
 .icon-fut {
   width: 20px;
