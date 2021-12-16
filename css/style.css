@@ -40,7 +40,7 @@ body {
 .header-nav {
   background-color: var(--main-bg-color);
   display: flex;
-  border-bottom: 1px solid #ececec;
+
   margin-left: 0 auto;
   align-items: center;
 }
@@ -228,8 +228,17 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/mainfoto.jpg);
-  background-image: linear-gradient(#2f303a 40%);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Imgfotomain.jpg);
+
+  background-color: #c4c4c4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-image: linear-gradient(#2f303a 40%); */
 }
 
 .solution-business {
@@ -650,6 +659,7 @@ footer {
 .section-but {
   padding-top: 100px;
   padding-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 .button-tipe {
   /* background-color: var(--text-bg-dop); */
@@ -663,10 +673,7 @@ footer {
   margin-bottom: 50px;
 }
 .butli {
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-bottom: 6px;
-  padding-left: 22px;
+  margin-right: 8px;
 }
 .but.mar {
   margin-right: 0px;
@@ -683,16 +690,19 @@ footer {
   letter-spacing: 0.03em;
   cursor: pointer;
   background-color: var(--text-bg-dop);
-  margin-right: 8px;
   border-radius: 4px;
   border: 1px solid transparent;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 .but:hover,
 .but:focus {
   color: var(--main-bg-color);
   background-color: var(--hov-foc-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*----------after batton!!!!!!!!!-------*/
 /* .many-foto {
